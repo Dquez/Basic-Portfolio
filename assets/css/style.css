@@ -1,3 +1,4 @@
+/* BASE STYLES */
 
 * {
 	margin: 0 auto;
@@ -21,6 +22,9 @@ body {
 	margin: 0 auto;
 	width:960px;
 }
+
+
+/* HEADER AREA */
 
 #navbar {
 	position:relative;
@@ -62,6 +66,9 @@ body {
 }
 
 
+
+/* MAIN CONTENT */
+
 .main {
 	background-color: rgb(235, 235, 235);
 	border-top:1px solid rgba(0, 0, 0, 0.3);
@@ -102,7 +109,7 @@ body {
 } 
 
 
-
+/* SIDE BAR/SOCIAL MEDIA */
 
 
 aside {
@@ -131,6 +138,7 @@ aside img {
 	display:inline-block;
 }
 
+/* FOOTER AREA */
 
 
 .footer {
