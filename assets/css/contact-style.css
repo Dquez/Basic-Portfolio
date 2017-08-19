@@ -75,7 +75,7 @@ body {
 	height: 100%;
 }
 
-#about {
+#contact {
 	width:410px;
 	background-color: rgb(255, 255, 255);
 	padding:18px;
@@ -84,30 +84,49 @@ body {
 	top:25px;
 }
 
-#about h1 {
+#contact h1 {
 	font-weight:600;
 	font-size:1.2em;
-	color:rgb(0,174,167);
+	color:#4aaaa5;
 	border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 	padding-bottom: 22px;
 
 }
 
-#about img {
-	height:95px;
-	width:125px;
-	float:left;
-	margin-top:20px;
-	padding-right:16px;
 
+#contact p {
+	font-size:14px;
+	margin-top:20px;
+	margin-bottom:-10px;
 } 
 
-#about p {
-	font-size:12px;
-	margin-top:20px;
-	line-height: 1.8em;
-} 
 
+input {
+	border:1px solid rgba(0, 0, 0, 0.1);
+	padding:5px;
+	width:98%;
+
+}
+
+
+
+textarea {
+	border:1px solid rgba(0, 0, 0, 0.1);
+	overflow: auto;
+	height:145px;
+	width: 100%;
+
+}
+
+.button {
+	background-color:rgb(0,174,167);
+	color:rgb(255, 255, 255);
+	padding: 10px 20px;
+	margin-top:14px;
+	font-size:14px;
+	font-weight: lighter;
+	width:90px;
+}
 
 /* SIDE BAR/SOCIAL MEDIA */
 
@@ -117,7 +136,7 @@ aside {
 	width:130px;
 	padding:20px;
 	position:relative;
-	top:-26.9em;
+	top:-28em;
 	right:215px;
 	float:right;
 }
